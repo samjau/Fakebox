@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392533C8199892F800815048 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392533C7199892F800815048 /* SettingsViewController.swift */; };
+		392533CA1998984500815048 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392533C91998984500815048 /* TermsViewController.swift */; };
+		396C51D01992116200AA4D44 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396C51CF1992116200AA4D44 /* SignInViewController.swift */; };
+		396C51D4199212C700AA4D44 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396C51D3199212C700AA4D44 /* CreateAccountRootViewController.swift */; };
+		396C51D6199212D600AA4D44 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396C51D5199212D600AA4D44 /* SignInRootViewController.swift */; };
+		396C51D8199213D900AA4D44 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396C51D7199213D900AA4D44 /* CreateAccountViewController.swift */; };
 		399A4AED1992073B00B2139B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399A4AEC1992073B00B2139B /* AppDelegate.swift */; };
 		399A4AEF1992073B00B2139B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399A4AEE1992073B00B2139B /* ViewController.swift */; };
 		399A4AF21992073B00B2139B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399A4AF01992073B00B2139B /* Main.storyboard */; };
-		399A4AF41992073B00B2139B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399A4AF31992073B00B2139B /* Images.xcassets */; };
 		399A4B001992073B00B2139B /* FakeboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399A4AFF1992073B00B2139B /* FakeboxTests.swift */; };
+		399A4B0A199208CF00B2139B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399A4B09199208CF00B2139B /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,15 +31,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		392533C7199892F800815048 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		392533C91998984500815048 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		396C51CF1992116200AA4D44 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = Fakebox/SignInViewController.swift; sourceTree = "<group>"; };
+		396C51D3199212C700AA4D44 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		396C51D5199212D600AA4D44 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		396C51D7199213D900AA4D44 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		399A4AE71992073B00B2139B /* Fakebox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fakebox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		399A4AEB1992073B00B2139B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		399A4AEC1992073B00B2139B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		399A4AEE1992073B00B2139B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		399A4AF11992073B00B2139B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		399A4AF31992073B00B2139B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		399A4AF91992073B00B2139B /* FakeboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		399A4AFE1992073B00B2139B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		399A4AFF1992073B00B2139B /* FakeboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeboxTests.swift; sourceTree = "<group>"; };
+		399A4B09199208CF00B2139B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +66,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		396C51D11992116500AA4D44 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				396C51CF1992116200AA4D44 /* SignInViewController.swift */,
+				396C51D3199212C700AA4D44 /* CreateAccountRootViewController.swift */,
+				396C51D5199212D600AA4D44 /* SignInRootViewController.swift */,
+				396C51D7199213D900AA4D44 /* CreateAccountViewController.swift */,
+				392533C7199892F800815048 /* SettingsViewController.swift */,
+				392533C91998984500815048 /* TermsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		399A4ADE1992073B00B2139B = {
 			isa = PBXGroup;
 			children = (
+				396C51D11992116500AA4D44 /* View Controllers */,
 				399A4AE91992073B00B2139B /* Fakebox */,
 				399A4AFC1992073B00B2139B /* FakeboxTests */,
 				399A4AE81992073B00B2139B /* Products */,
@@ -78,7 +104,7 @@
 				399A4AEC1992073B00B2139B /* AppDelegate.swift */,
 				399A4AEE1992073B00B2139B /* ViewController.swift */,
 				399A4AF01992073B00B2139B /* Main.storyboard */,
-				399A4AF31992073B00B2139B /* Images.xcassets */,
+				399A4B09199208CF00B2139B /* Images.xcassets */,
 				399A4AEA1992073B00B2139B /* Supporting Files */,
 			);
 			path = Fakebox;
@@ -190,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				399A4AF21992073B00B2139B /* Main.storyboard in Resources */,
-				399A4AF41992073B00B2139B /* Images.xcassets in Resources */,
+				399A4B0A199208CF00B2139B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				396C51D8199213D900AA4D44 /* CreateAccountViewController.swift in Sources */,
+				396C51D6199212D600AA4D44 /* SignInRootViewController.swift in Sources */,
+				392533C8199892F800815048 /* SettingsViewController.swift in Sources */,
+				396C51D4199212C700AA4D44 /* CreateAccountRootViewController.swift in Sources */,
 				399A4AEF1992073B00B2139B /* ViewController.swift in Sources */,
 				399A4AED1992073B00B2139B /* AppDelegate.swift in Sources */,
+				392533CA1998984500815048 /* TermsViewController.swift in Sources */,
+				396C51D01992116200AA4D44 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Fakebox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -337,6 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Fakebox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -395,6 +429,7 @@
 				399A4B051992073B00B2139B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		399A4B061992073B00B2139B /* Build configuration list for PBXNativeTarget "FakeboxTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +438,7 @@
 				399A4B081992073B00B2139B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
